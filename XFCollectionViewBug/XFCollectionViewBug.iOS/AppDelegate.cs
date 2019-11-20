@@ -23,6 +23,9 @@ namespace XFCollectionViewBug.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            App.ScreenHeight = (int)UIScreen.MainScreen.Bounds.Height;
+            App.ScreenWidth = (int)UIScreen.MainScreen.Bounds.Width;
+
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

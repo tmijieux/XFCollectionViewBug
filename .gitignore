@@ -4,3 +4,4 @@
 bin/
 obj/
 Resource.Designer.cs
+*.csproj.user
