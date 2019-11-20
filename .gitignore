@@ -1,0 +1,6 @@
+.vs
+*~
+\#*#
+bin/
+obj/
+Resource.Designer.cs
